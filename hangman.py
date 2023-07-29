@@ -135,14 +135,6 @@ def is_letter_guessed(secret_word,letter):
             return False
     
 
-# def available_guesses(guesses, get_available_letters(letters_guessed),secret_word):
-#     guesses -= 1
-#     if guesses > 0:
-#        print('guesses_remaining: ' , guesses)
-#        print("Remaining letters :" , get_available_letters(letters_guessed))
-#     else:
-#         print("Sorry you ran out of guesses. The word was : ", secret_word) 
-#     return None
     
 
 def hangman(secret_word):
@@ -222,9 +214,7 @@ def hangman(secret_word):
                 print("Sorry you ran out of guesses. The word was : ", secret_word)
    
     return 
-# secret_word = "apple"
 
-# print(hangman(secret_word))
 
 
 # When you've completed your hangman function, scroll down to the bottom
@@ -307,7 +297,6 @@ def hangman_with_hints(secret_word):
     
     Follows the other limitations detailed in the problem write-up.
     '''
-    # FILL IN YOUR CODE HERE AND DELETE "pass"
     guesses = 6
     warnings = 3
     letters_guessed = []
