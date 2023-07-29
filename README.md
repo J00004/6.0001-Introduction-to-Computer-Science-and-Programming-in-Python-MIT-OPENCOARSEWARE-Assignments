@@ -1,4 +1,3 @@
-#6.0001 Standford Assignments
-hang_man
-word_game
+1.hang_man
+2.word_game
 
