@@ -1,2 +1,4 @@
-# hang_man
-6.0001 standford Assignment 2
+#6.0001 Standford Assignments
+hang_man
+word_game
+
